@@ -1,0 +1,30 @@
+{
+  "quiz_title": "Spanish Basics Quiz",
+  "questions": [
+    {
+      "question_text": "What does 'hola' mean in English?",
+      "options": ["Goodbye", "Hello", "Thank you", "Excuse me"],
+      "correct_option": 1
+    },
+    {
+      "question_text": "What is the Spanish word for 'yes'?",
+      "options": ["Sí", "No", "Por favor", "Gracias"],
+      "correct_option": 0
+    },
+    {
+      "question_text": "What is the Spanish word for 'thank you'?",
+      "options": ["Sí", "No", "Por favor", "Gracias"],
+      "correct_option": 3
+    },
+    {
+      "question_text": "What is the Spanish word for 'goodbye'?",
+      "options": ["Hasta la vista", "Hola", "Adiós", "Buenos días"],
+      "correct_option": 2
+    },
+    {
+      "question_text": "What is the Spanish word for 'please'?",
+      "options": ["Sí", "No", "Por favor", "Gracias"],
+      "correct_option": 2
+    }
+  ]
+}

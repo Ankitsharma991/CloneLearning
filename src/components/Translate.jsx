@@ -131,7 +131,7 @@ const Translate = () => {
             </li>
           </ul>
         </div>
-        <button className="btn">Translate Text</button>
+        <button className="btn-c">Translate Text</button>
       </div>
     </>
   );

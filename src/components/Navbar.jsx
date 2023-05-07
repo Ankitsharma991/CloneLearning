@@ -112,6 +112,9 @@ const Navbar = () => {
                       <p className="text-red-500 ml-3 text-lg">
                         <Link path="/publish">Publish</Link>
                       </p>
+                      <p className="text-red-500 ml-3 text-lg">
+                        <Link path="/tranlate">Translate</Link>
+                      </p>
                     </div>
                   </li>
                 </div>
@@ -158,9 +161,14 @@ const Navbar = () => {
                 <Link to="/dashboard">Dashboard</Link>
               </li>
             </ul>
-            <ul className="xl:flex hidden items-center h-full">
+            <ul className="pr-5 xl:flex hidden items-center h-full">
               <li className="hover:text-red-700 cursor-pointer h-full flex items-center text-sm tracking-normal">
                 <Link to="/publish">Publish</Link>
+              </li>
+            </ul>
+            <ul className="xl:flex hidden items-center h-full">
+              <li className="hover:text-red-700 cursor-pointer h-full flex items-center text-sm tracking-normal">
+                <Link to="/translate">Translate</Link>
               </li>
             </ul>
           </div>

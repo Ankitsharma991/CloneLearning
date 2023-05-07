@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Explore from "./components/Explore";
 import Dashboard from "./components/Dashboard";
 import Quiz from "./components/Quiz";
+import TranslateInput from "./components/Translate";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           {/* <Route path="/explore" element={<Explore />} /> */}
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/translate" element={<TranslateInput />} />
           <Route path="/quiz/:id" element={<Quiz />} />
         </Routes>
       </div>

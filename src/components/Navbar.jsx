@@ -167,6 +167,11 @@ const Navbar = () => {
                 <Link to="/publish">Quizzes</Link>
               </li>
             </ul>
+            <ul className="pr-5 xl:flex hidden items-center h-full">
+              <li className="hover:text-red-700 cursor-pointer h-full flex items-center text-sm tracking-normal">
+                <Link to="/translate">Translate</Link>
+              </li>
+            </ul>
             <ul className="xl:flex hidden items-center h-full">
               <li className="hover:text-red-700 cursor-pointer h-full flex items-center text-sm tracking-normal">
                 <Link to="/translate">Translate</Link>

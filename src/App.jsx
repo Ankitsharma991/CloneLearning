@@ -5,7 +5,7 @@ import Explore from "./components/Explore";
 import Dashboard from "./components/Dashboard";
 import Quiz from "./components/Quiz";
 import Courses from "./components/Courses";
-import CourseDetails from "./components/courseDetails"
+import Translate from "./components/Translate";
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/quiz/:id" element={<Quiz />} />
           <Route path="/course" element={<Courses />} />
+          <Route path="/translate" element={<Translate />} />
           <Route path="/course/:id" element={<Courses />} />
         </Routes>
       </div>

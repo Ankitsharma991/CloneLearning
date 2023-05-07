@@ -111,7 +111,7 @@ const Navbar = () => {
                         <p onClick={() => navigate("/course")}>Courses</p>
                       </p>
                       <p className="text-red-500 ml-3 text-lg">
-                        <Link path="/publish">Publish</Link>
+                        <Link path="/translate">Translate</Link>
                       </p>
                     </div>
                   </li>
@@ -161,7 +161,7 @@ const Navbar = () => {
             </ul>
             <ul className="xl:flex hidden items-center h-full">
               <li className="hover:text-red-700 cursor-pointer h-full flex items-center text-sm tracking-normal">
-                <Link to="/publish">Quizzes</Link>
+                <Link to="/translate">Translate</Link>
               </li>
             </ul>
           </div>

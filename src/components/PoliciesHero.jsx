@@ -59,13 +59,7 @@ const PoliciesHero = () => {
                           </p>
                         </li>
                       </ul>
-                      <p className="text-base text-red-700 relative pl-3">
-                        <span className="font-light text-lg">$</span>
-                        <span className="text-2xl font-semibold">20</span>
-                        <span className="text-gray-600 font-light text-lg">
-                          /month
-                        </span>
-                      </p>
+                      
                       <button className="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none transition duration-150 ease-in-out rounded text-red-700 px-8 py-3 text-base font-semibold">
                         Choose
                       </button>
@@ -118,32 +112,7 @@ const PoliciesHero = () => {
                             Attractive Discounts
                           </p>
                         </li>
-                        <li className="flex items-center mb-2.5">
-                          <img
-                            src="https://cdn.tuk.dev/assets/templates/weCare/checkMark.png"
-                            className="mr-4 opacity-0"
-                            alt="check-mark"
-                          />
-                          <p className="text-red-700 text-base font-normal">
-                            Direct doctor phone number
-                          </p>
-                        </li>
-                        <li className="flex items-center mb-2.5">
-                          <img
-                            src="https://cdn.tuk.dev/assets/templates/weCare/checkMark.png"
-                            className="mr-4 opacity-0"
-                            alt="check-mark"
-                          />
-                          <p className="text-red-700 text-base font-normal">
-                            Specialists appoinments
-                          </p>
-                        </li>
                       </ul>
-                      <p className="text-base text-white relative pl-3">
-                        <span className="font-light text-lg">$</span>
-                        <span className="text-2xl font-semibold">100</span>
-                        <span className="font-light text-lg">/month</span>
-                      </p>
                       <button className="mt-5 w-full text-red-700 focus:outline-none transition duration-150 ease-in-out rounded bg-white hover:bg-gray-100 px-8 py-3 text-base font-semibold">
                         Choose
                       </button>
@@ -197,11 +166,7 @@ const PoliciesHero = () => {
                           </p>
                         </li>
                       </ul>
-                      <p className="text-base text-red-700 relative pl-3">
-                        <span className="font-light text-lg">$</span>
-                        <span className="text-2xl font-semibold">200</span>
-                        <span className="font-light text-lg">/month</span>
-                      </p>
+                      
                       <button className="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none transition duration-150 ease-in-out rounded text-red-700 px-8 py-3 text-base font-semibold">
                         Choose
                       </button>

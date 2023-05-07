@@ -1,9 +1,11 @@
 import React from "react";
 import PoliciesHero from "./PoliciesHero";
 import CardsHero from "./CardsHero";
+import { useNavigate } from "react-router-dom";
 import Lan from "../components/lan.png";
 
 const Home = () => {
+  let navigate = useNavigate();
   return (
     <>
       <div
@@ -20,7 +22,12 @@ const Home = () => {
               Improve your language skills with our platform and assess your
               proficiency by taking quizzes.
             </p>
-            <button className="btn btn-primary">Explore</button>
+            <button
+              onClick={() => navigate("/course")}
+              className="btn btn-primary"
+            >
+              Explore
+            </button>
           </div>
         </div>
       </div>

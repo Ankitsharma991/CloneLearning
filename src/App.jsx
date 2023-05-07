@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Explore from "./components/Explore";
 import Dashboard from "./components/Dashboard";
 import Quiz from "./components/Quiz";
+import Courses from "./components/Courses";
+import CourseDetails from "./components/courseDetails"
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/quiz/:id" element={<Quiz />} />
+          <Route path="/course" element={<Courses />} />
+          <Route path="/course/:id" element={<Courses />} />
         </Routes>
       </div>
     </div>

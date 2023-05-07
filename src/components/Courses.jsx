@@ -19,7 +19,7 @@ const Courses = () => {
     init();
   }, []);
   return (
-    <div className="container">
+    <div className="flex justify-center mt-[2rem]">
       <section className="grid md:grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
         {course.map((e) => (
           <Card course={e} />

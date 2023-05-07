@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function Card({ course }) {
   return (
-    <div className="bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div className="bg-gray-200 rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
       <div className="flex h-full">
         <div className="flex-1 h-full next-image-wrapper">
           <img
-            className={`object-cover `}
+            className="h-[20vh] w-[20rem]"
             src={course.coverImage}
             width="200"
             height="230"
@@ -18,7 +18,7 @@ export default function Card({ course }) {
             {course.type}
           </div>
           <Link
-            to={`/courses/${course.slug}`}
+            to={`/courses/${course._id}`}
             className="h-12 block mt-1 text-sm sm:text-lg xs:text-xl leading-tight font-medium text-black hover:underline"
           >
             {course.title}

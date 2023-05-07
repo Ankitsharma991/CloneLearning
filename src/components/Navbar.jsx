@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
+  let navigate = useNavigate();
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   return (
     <div className="">
@@ -107,7 +108,7 @@ const Navbar = () => {
                         </svg>
                       </div>
                       <p className="text-red-500 ml-3 text-lg">
-                        <Link path="/dashboard">Courses</Link>
+                        <p onClick={() => navigate("/course")}>Courses</p>
                       </p>
                       <p className="text-red-500 ml-3 text-lg">
                         <Link path="/publish">Publish</Link>
@@ -155,7 +156,7 @@ const Navbar = () => {
             </div>
             <ul className="pr-5 xl:flex hidden items-center h-full">
               <li className="hover:text-red-700 cursor-pointer h-full flex items-center text-sm text-red-700 tracking-normal">
-                <Link to="/dashboard">Courses</Link>
+                <Link to="/course">Courses</Link>
               </li>
             </ul>
             <ul className="xl:flex hidden items-center h-full">

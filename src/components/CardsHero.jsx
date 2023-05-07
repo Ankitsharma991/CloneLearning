@@ -16,7 +16,7 @@ const CardsHero = () => {
               >
                 <figure class="px-4 pt-4">
                   <img
-                  className="h-30"
+                    className="h-30"
                     src={Hindi}
                     class="border-base-content bg-base-300 rounded-lg border border-opacity-5"
                     alt="Alert"
@@ -39,7 +39,7 @@ const CardsHero = () => {
               >
                 <figure class="px-4 pt-4">
                   <img
-                  className="h-30"
+                    className="h-30"
                     src={German}
                     class="border-base-content bg-base-300 rounded-lg border border-opacity-5"
                     alt="Alert"
@@ -105,7 +105,7 @@ const CardsHero = () => {
       <div className="flex w-full justify-center -mt-8">
         <button
           className="my-[4rem] btn btn-primary"
-          onClick={() => navigate("/explore")}
+          onClick={() => navigate("/quiz/:id")}
         >
           View All Quizzes
         </button>

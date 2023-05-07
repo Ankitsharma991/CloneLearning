@@ -59,8 +59,11 @@ const PoliciesHero = () => {
                           </p>
                         </li>
                       </ul>
-                      
-                      <button className="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none transition duration-150 ease-in-out rounded text-red-700 px-8 py-3 text-base font-semibold">
+
+                      <button
+                        className="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none transition duration-150 ease-in-out rounded text-red-700 px-8 py-3 text-base font-semibold"
+                        onClick={() => navigate("/course")}
+                      >
                         Choose
                       </button>
                     </div>
@@ -113,7 +116,10 @@ const PoliciesHero = () => {
                           </p>
                         </li>
                       </ul>
-                      <button className="mt-5 w-full text-red-700 focus:outline-none transition duration-150 ease-in-out rounded bg-white hover:bg-gray-100 px-8 py-3 text-base font-semibold">
+                      <button
+                        className="mt-5 w-full text-red-700 focus:outline-none transition duration-150 ease-in-out rounded bg-white hover:bg-gray-100 px-8 py-3 text-base font-semibold"
+                        onClick={() => navigate("/course")}
+                      >
                         Choose
                       </button>
                     </div>
@@ -166,8 +172,11 @@ const PoliciesHero = () => {
                           </p>
                         </li>
                       </ul>
-                      
-                      <button className="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none transition duration-150 ease-in-out rounded text-red-700 px-8 py-3 text-base font-semibold">
+
+                      <button
+                        onClick={() => navigate("/course")}
+                        className="mt-5 w-full bg-gray-200 hover:bg-gray-300 focus:outline-none transition duration-150 ease-in-out rounded text-red-700 px-8 py-3 text-base font-semibold"
+                      >
                         Choose
                       </button>
                     </div>
@@ -177,7 +186,7 @@ const PoliciesHero = () => {
               <div className="flex w-full justify-center -mt-8">
                 <button
                   className="btn btn-primary"
-                  onClick={() => navigate("/explore")}
+                  onClick={() => navigate("/course")}
                 >
                   View All Courses
                 </button>

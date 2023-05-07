@@ -15,7 +15,7 @@ const PoliciesHero = () => {
                   <div className="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
                     <div className="py-5 px-4 bg-white border border-gray-200shadow rounded-lg text-left">
                       <h4 className="text-2xl text-red-700 font-semibold pb-8">
-                        PAPER 1
+                        Learn German
                       </h4>
                       <ul className="flex flex-col mb-6">
                         <li className="flex items-center mb-2.5">
@@ -35,7 +35,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-gray-800 text-base font-normal">
-                            Order labs + Results
+                            Language Translation
                           </p>
                         </li>
                         <li className="flex items-center mb-2.5">
@@ -45,7 +45,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-gray-400 text-base font-normal">
-                            Radiology tests + Results
+                            Learning Tracking and Quizzes
                           </p>
                         </li>
                         <li className="flex items-center mb-2.5">
@@ -55,27 +55,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-gray-400 text-base font-normal">
-                            Partnership + Discounts
-                          </p>
-                        </li>
-                        <li className="flex items-center mb-2.5">
-                          <img
-                            src="https://cdn.tuk.dev/assets/templates/weCare/checkMark.png"
-                            className="opacity-0 mr-4"
-                            alt="check-mark"
-                          />
-                          <p className="text-gray-400 text-base font-normal">
-                            Direct doctor phone number
-                          </p>
-                        </li>
-                        <li className="flex items-center mb-2.5">
-                          <img
-                            src="https://cdn.tuk.dev/assets/templates/weCare/checkMark.png"
-                            className="opacity-0 mr-4"
-                            alt="check-mark"
-                          />
-                          <p className="text-gray-400 text-base font-normal">
-                            Specialists appoinments
+                            Attractive Discounts
                           </p>
                         </li>
                       </ul>
@@ -95,7 +75,7 @@ const PoliciesHero = () => {
                   <div className="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
                     <div className="py-5 px-4 bg-red-700 border border-gray-200 shadow rounded-lg text-left">
                       <h4 className="text-2xl text-white font-semibold pb-8">
-                        PAPER 2
+                        Learn Hindi
                       </h4>
                       <ul className="flex flex-col mb-6">
                         <li className="flex items-center mb-2.5">
@@ -115,7 +95,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-white text-base font-normal">
-                            Order labs + Results
+                            Language Translation
                           </p>
                         </li>
                         <li className="flex items-center mb-2.5">
@@ -125,7 +105,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-white text-base font-normal">
-                            Radiology tests + Results
+                            Learning Tracking and Quizzes
                           </p>
                         </li>
                         <li className="flex items-center mb-2.5">
@@ -135,7 +115,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-white text-base font-normal">
-                            Partnership + Discounts
+                            Attractive Discounts
                           </p>
                         </li>
                         <li className="flex items-center mb-2.5">
@@ -173,7 +153,7 @@ const PoliciesHero = () => {
                   <div className="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
                     <div className="py-5 px-4 bg-white border border-gray-200shadow rounded-lg text-left">
                       <h4 className="text-2xl text-red-700 font-semibold pb-8">
-                        PAPER 3
+                        Learn Spanish
                       </h4>
                       <ul className="flex flex-col mb-6">
                         <li className="flex items-center mb-2.5">
@@ -193,7 +173,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-gray-800 text-base font-normal">
-                            Order labs + Results
+                            Language Translation
                           </p>
                         </li>
                         <li className="flex items-center mb-2.5">
@@ -203,7 +183,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-gray-800 text-base font-normal">
-                            Radiology tests + Results
+                            Learning Tracking and Quizzes
                           </p>
                         </li>
                         <li className="flex items-center mb-2.5">
@@ -213,27 +193,7 @@ const PoliciesHero = () => {
                             alt="check-mark"
                           />
                           <p className="text-gray-800 text-base font-normal">
-                            Partnership + Discounts
-                          </p>
-                        </li>
-                        <li className="flex items-center mb-2.5">
-                          <img
-                            src="https://cdn.tuk.dev/assets/templates/weCare/checkMark.png"
-                            className="mr-4"
-                            alt="check-mark"
-                          />
-                          <p className="text-gray-800 text-base font-normal">
-                            Direct doctor phone number
-                          </p>
-                        </li>
-                        <li className="flex items-center mb-2.5">
-                          <img
-                            src="https://cdn.tuk.dev/assets/templates/weCare/checkMark.png"
-                            className="mr-4"
-                            alt="check-mark"
-                          />
-                          <p className="text-gray-800 text-base font-normal">
-                            Specialists appoinments
+                            Attractive Discounts
                           </p>
                         </li>
                       </ul>
@@ -254,7 +214,7 @@ const PoliciesHero = () => {
                   className="btn btn-primary"
                   onClick={() => navigate("/explore")}
                 >
-                  See All Papers
+                  View All Courses
                 </button>
               </div>
               <style

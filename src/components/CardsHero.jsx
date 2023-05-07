@@ -1,6 +1,6 @@
 import React from "react";
 import German from "../../src/components/german.jpg";
-import Spanish from "../../src/components/spanish.jpeg";
+import Spanish from "../../src/components/spanish.jpg";
 import Hindi from "../../src/components/hindi.jpg";
 import Chinese from "../../src/components/chinese.jpg";
 const CardsHero = () => {
@@ -9,13 +9,14 @@ const CardsHero = () => {
       <div className="mx-auto container w-full">
         <div className="flex">
           <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
-            <div className="container bg-gray-300">
+            <div className="container">
               <div
                 class="card card-compact hover:bg-base-200 transition-all duration-200 hover:-translate-y-1 w-full"
                 href="/components/alert"
               >
                 <figure class="px-4 pt-4">
                   <img
+                  className="h-30"
                     src={Hindi}
                     class="border-base-content bg-base-300 rounded-lg border border-opacity-5"
                     alt="Alert"
@@ -31,13 +32,14 @@ const CardsHero = () => {
                 </div>{" "}
               </div>
             </div>
-            <div className="container bg-gray-300">
+            <div className="container">
               <div
                 class="card card-compact hover:bg-base-200 transition-all duration-200 hover:-translate-y-1 w-full"
                 href="/components/alert"
               >
                 <figure class="px-4 pt-4">
                   <img
+                  className="h-30"
                     src={German}
                     class="border-base-content bg-base-300 rounded-lg border border-opacity-5"
                     alt="Alert"
@@ -53,7 +55,7 @@ const CardsHero = () => {
                 </div>{" "}
               </div>
             </div>
-            <div className="container bg-gray-300">
+            <div className="container">
               <div
                 class="card card-compact hover:bg-base-200 transition-all duration-200 hover:-translate-y-1 w-full"
                 href="/components/alert"
@@ -75,7 +77,7 @@ const CardsHero = () => {
                 </div>{" "}
               </div>
             </div>
-            <div className="container bg-gray-300">
+            <div className="container">
               <div
                 class="card card-compact hover:bg-base-200 transition-all duration-200 hover:-translate-y-1 w-full"
                 href="/components/alert"
